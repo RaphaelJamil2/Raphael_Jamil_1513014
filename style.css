@@ -1,0 +1,64 @@
+body{
+    width:90%;
+    margin: 0 auto;
+}
+hr{
+    width: 95%;
+}
+.linha{
+    border-bottom: 2px solid black;
+}
+.seguidor{
+  width: 30px;
+  margin-left: 80px;
+}
+.seguidorcard{
+  width: 17px;
+}
+#row{
+  justify-content: center !important;
+}
+.colega{
+  width: 250px;
+}
+.icon{
+  width: 35px;
+}
+.carousel{
+  width: 80%;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+}
+
+
+
+
+@media (max-width: 387px) and (min-width: 349px){
+
+
+
+
+  .seguidor{
+    width: 10%;
+    margin-left: 110px !important;
+  }
+      
+}
+
+@media (max-width: 575px) {
+    .eu{
+      width: 100%;
+    }
+    .seguidor{
+      width: 10%;
+      margin: 0;
+    }
+    .row{
+      justify-content: center !important;
+    }
+
+  }
+
+@media (max-width: 1399px) and (min-width: 1200px){
+    
+}
