@@ -1,38 +1,59 @@
 body{
-    width:90%;
-    margin: 0 auto;
+  width:90%;
+  margin: 0 auto;
 }
 hr{
-    width: 95%;
+  width: 95%;
 }
 .linha{
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.eu{
+  width: 396px;
 }
 .seguidor{
-  width: 30px;
-  margin-left: 80px;
+width: 30px;
+margin-left: 80px;
+}
+.seguidor2{
+  width: 50px !important;
 }
 .seguidorcard{
-  width: 17px;
+width: 17px;
 }
 #row{
-  justify-content: center !important;
+justify-content: center !important;
 }
 .colega{
-  width: 250px;
+width: 250px;
+}
+.fa-star{
+  display: inline-flex !important;
 }
 .icon{
-  width: 35px;
+width: 35px;
 }
 .carousel{
-  width: 80%;
-  margin: 0 auto;
-  background-color: cornflowerblue;
+width: 100%;
+margin: 0 auto;
+background-color: cornflowerblue;
+}
+.container-fluid{
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 a{
-  text-decoration: none !important;
-  color: black !important;
+text-decoration: none !important;
+color: black !important;
 }
+.text-light{
+  border: 2px solid cornflowerblue;
+  padding: 3px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+
 
 
 
@@ -42,27 +63,27 @@ a{
 
 
 
-  .seguidor{
-    width: 10%;
-    margin-left: 110px !important;
-  }
+.seguidor{
+  width: 10%;
+  margin-left: 110px !important;
+}
 
 }
 
 @media (max-width: 575px) {
-    .eu{
-      width: 100%;
-    }
-    .seguidor{
-      width: 10%;
-      margin: 0;
-    }
-    .row{
-      justify-content: center !important;
-    }
-
+  .eu{
+    width: 100%;
+  }
+  .seguidor{
+    width: 10%;
+    margin: 0;
+  }
+  .row{
+    justify-content: center !important;
   }
 
+}
+
 @media (max-width: 1399px) and (min-width: 1200px){
-    
+  
 }
