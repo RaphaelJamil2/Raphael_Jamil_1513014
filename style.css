@@ -2,6 +2,33 @@ body{
     width:90%;
     margin: 0 auto;
 }
+html{
+  height: 100%;
+}
+header a{
+  text-decoration: none;
+  color: white;
+}
+.sesg{
+  margin-right: 250px;
+}
+.fs-2{
+  font-weight: bold;
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.menu{
+  display: flex;
+}
+.menu li{
+  list-style: none;
+  margin-left: 100px;
+}
 hr{
     width: 95%;
 }
@@ -58,6 +85,14 @@ a{
   padding: 0 !important;
   margin: 0 !important;
 }
+#menuToggle{
+  display: none;
+}
+
+.menu-icon{
+  display: none;
+}
+
 
 
 
@@ -78,14 +113,98 @@ a{
     }
     .seguidor{
       width: 10%;
-      margin: 0;
+      margin-right: 0;
     }
     .row{
       justify-content: center !important;
     }
-
+    .sesg{
+      margin: 0;
+    }
   }
 
-@media (max-width: 1399px) and (min-width: 1200px){
-    
+  @media (max-width: 942px){
+
+    header{
+      top: 0px;
+      width: 100%;
+      margin-bottom: 15px;
+  }
+    header nav{
+      display: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .menu{
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+
+    -webkit-transition: heigth 0.3s;
+    -moz-transition: heigth 0.3s;
+    -o-transition: heigth 0.3s;
+    transition: height 0.3s;
 }
+
+  .menu li{
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+      margin-bottom: 20px;
+  }
+
+  .menu li a{
+      display: block;
+      text-align: center;
+      width: 100%;
+      color: white !important;
+  }
+
+  .menu-icon{
+      display: block;
+      margin-right: 10px;
+      color: black;
+      width: 50px;
+      height: 10px;
+      position: fixed;
+      top: 20px;
+      right: 0px;
+      line-height: 60px;
+      z-index: 999;
+      justify-content: c;
+  }
+
+  .menu-icon i{
+      font-size: 1.7em;
+  }
+
+  #menuToggle:checked ~ label i:nth-child(2){
+      display: block;
+  }
+
+  #menuToggle:checked ~ label i:first-child{
+      display: none;
+  }
+
+  #menuToggle:not(checked) ~ label i:nth-child(2){
+      display: none;
+  }
+
+  #menuToggle:not(checked) ~ label i:first-child{
+      display: block;
+  }
+
+  #menuToggle:checked ~ ul{
+      height: 100%;
+      z-index: 998;
+  }
+
+  }
