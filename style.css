@@ -29,6 +29,10 @@ hr{
   margin: 0 auto;
   background-color: cornflowerblue;
 }
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
 
 
 
@@ -42,7 +46,7 @@ hr{
     width: 10%;
     margin-left: 110px !important;
   }
-      
+
 }
 
 @media (max-width: 575px) {
