@@ -208,3 +208,40 @@ a{
   }
 
   }
+
+  @media (max-width: 2100px) and (min-width: 2000px){
+    .menuzin{
+      display: grid;
+      grid-template-columns: 1400px;
+    }
+
+    .bio {
+      display: grid;
+      grid-template-columns: 1400px;
+    }
+
+  }
+  @media (min-width: 2101px) and (max-width: 2230px){
+    .menuzin{
+      display: grid;
+      grid-template-columns: 1400px;
+    }
+    
+    .bio {
+      display: grid;
+      grid-template-columns: 1400px;
+    }
+
+  }
+  @media (min-width: 2231px) {
+    .menuzin{
+      display: grid;
+      grid-template-columns: 1400px;
+    }
+
+    .bio {
+      display: grid;
+      grid-template-columns: 1700px;
+    }
+
+  }
